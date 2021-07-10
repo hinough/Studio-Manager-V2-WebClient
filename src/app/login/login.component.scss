@@ -15,10 +15,12 @@
         border-width: 1px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        height: 400px;
         width: 500px;
 
         input {
-            border-color: #5A5A5A;
+            border-color: #CED4DA;
             border-radius: 5px;
             border-style: solid;
             border-width: 1px;
@@ -42,11 +44,15 @@
             border-style: none;
             border-width: 0;
             border-radius: 5px;
+            color: white;
             font-family: Montserrat, sans-serif;
             font-size: 18px;
             padding: 5px;
-            margin: 0 0 10px 0 ;
             width: 480px;
+
+            &:hover {
+                background-color: #C7AC4C;
+            }
         }
     }
 }
