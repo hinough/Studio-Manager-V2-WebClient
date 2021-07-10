@@ -1,5 +1,43 @@
 .topbar {
-    background-color: #3A3A3A;
-    height: 70px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat, sans-serif;
     width: 100%;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 0 0;
+        text-align: center;
+    
+        li {
+            list-style-type: none;
+            margin: 22px;
+
+            a {
+                border-color: #D1BB6E;
+                border-style: solid;
+                border-width: 0;
+                color: black;
+                font-size: 22px;
+                opacity: .5;
+                text-decoration: none;
+
+                &:hover {
+                    color: black;
+                    opacity: 1;
+                }
+                &.active {
+                    border-width: 0 0 2px 0;
+                    opacity: 1;
+                }
+            }
+
+            img {
+                float: left;
+            }
+        }
+    }
 }
